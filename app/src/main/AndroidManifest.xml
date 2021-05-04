@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".ui.PessoaFormActivity" />
         <activity android:name=".ui.DisciplinaFormActivity" />
+        <activity android:name=".ui.TrabalhoFormActivity" />
+        <activity android:name=".TrabalhoActivity" />
         <activity android:name=".DisciplinaActivity" />
     </application>
 

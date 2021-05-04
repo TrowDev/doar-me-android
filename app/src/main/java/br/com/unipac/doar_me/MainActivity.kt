@@ -34,6 +34,10 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this@MainActivity, DisciplinaActivity::class.java)
             startActivity(intent)
         }
+        btnTrabalhos.setOnClickListener {
+            var intent = Intent(this@MainActivity, TrabalhoActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onResume() {

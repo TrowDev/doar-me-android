@@ -7,9 +7,20 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btnTrabalhos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabalhos"
+        app:layout_constraintBottom_toTopOf="@+id/btnDisciplinas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/btnDisciplinas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="Disciplinas"
         app:layout_constraintBottom_toTopOf="@+id/btnCallForm"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,7 +31,7 @@
         android:id="@+id/btnCallForm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="90dp"
         android:text="Inserir"
         app:layout_constraintBottom_toTopOf="@+id/listPessoas"
         app:layout_constraintEnd_toEndOf="parent"
